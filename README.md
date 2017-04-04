@@ -24,4 +24,10 @@ Add your DB url.  Go to server/db/db.js
 
 There is both a production url, and a testing url which has been comented out.  Once you have your urls, add them in.  
 
-## Settig up you Postmark Email
+## Setting up your Postmark Email
+
+Create an account on [Postmark](https://postmarkapp.com/).
+
+## Deploying on Heroku
+
+Create a new node app.  Add the stuff from the config.js file to the Env.  
