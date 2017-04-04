@@ -1,0 +1,36 @@
+@media (--xsmall) {
+  .welcome-links {
+    @neat-span-columns 8;
+    @neat-shift 2;
+  }
+}
+
+@media (--small) {
+  .welcome-header {
+    @neat-span-columns 8;
+  }
+
+  .welcome-logo {
+    @neat-span-columns 8;
+  }
+
+  .welcome-links {
+    @neat-span-columns 6;
+    @neat-shift 3;
+  }
+
+  .react-redux-modal .rrm-holder .scroll .rrm-content {
+    width: 60%;
+  }
+}
+
+@media (--medium) {
+  .welcome-links {
+    @neat-span-columns 4;
+    @neat-shift 4;
+  }
+
+  .react-redux-modal .rrm-holder .scroll .rrm-content {
+    width: 50%;
+  }
+}
