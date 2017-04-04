@@ -14,7 +14,7 @@ export default class HeaderPublic extends Component {
           </div>
 
           <div className="portal">
-            <Link to="/" title="Gourmand">FoodiePal</Link>
+            <Link to="/" title="YourApp">Your App</Link>
           </div>
 
           <div className="mobile-quick-nav mobile-nav-right"></div>
